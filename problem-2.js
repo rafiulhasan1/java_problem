@@ -1,0 +1,10 @@
+var math = 75.25;
+var biology = 65;
+var chemistry = 80;
+var bangla = 99.50;
+var physics = 35.45;
+var total = math+biology+chemistry+bangla+physics;
+console.log(total);
+var slice = total/5;
+slice = slice.toFixed(2);
+console.log(slice);
